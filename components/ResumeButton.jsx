@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
-import { FileTextIcon } from 'lucide-react'
+
+import { FaFilePdf } from "react-icons/fa";
 
 export const ResumeButton = () => {
   const downloadResume = () => {
@@ -16,7 +17,7 @@ export const ResumeButton = () => {
         onClick={downloadResume}
         className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-4 rounded-full shadow-lg flex items-center transition-all duration-300 hover:scale-105"
       >
-        <FileTextIcon size={18} className="mr-2" />
+        <FaFilePdf size={18} className="mr-2" />
         <span>Resume</span>
       </button>
     </div>

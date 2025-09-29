@@ -1,10 +1,8 @@
 import React from 'react'
-import {
-  GithubIcon,
-  LinkedinIcon,
-  InstagramIcon,
-  ExternalLinkIcon,
-} from 'lucide-react'
+import { LuMail } from "react-icons/lu";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 export const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-300">
@@ -27,15 +25,16 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors duration-300"
               >
-                <GithubIcon size={24} />
+                <FaGithub size={24} />
               </a>
+
               <a
                 href="LinkedInhttps://www.linkedin.com/in/atharva-lad-a06bb8299/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors duration-300"
               >
-                <LinkedinIcon size={24} />
+                <FaLinkedin size={24} />
               </a>
               <a
                 href="https://www.instagram.com/atharvalad05?igsh=bWNmODRzNDJvMzI5"
@@ -43,13 +42,13 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors duration-300"
               >
-                <InstagramIcon size={24} />
+                <FaInstagram size={24} />
               </a>
               <a
                 href="mailto:atharvalad05@gmail.com"
                 className="text-gray-300 hover:text-white transition-colors duration-300"
               >
-                <ExternalLinkIcon size={24} />
+                <LuMail size={24} />
               </a>
             </div>
           </div>
