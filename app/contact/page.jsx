@@ -85,12 +85,9 @@ export default function ContactPage() {
                 {/* Optional quick links / alt contact */}
                 <div className="mt-6 flex flex-wrap items-center gap-3 text-sm text-gray-300">
                   <span className="opacity-80">Prefer email?</span>
-                  <Link
-                    href="mailto:atharvalad05@gmail.com"
-                    className="rounded-lg border border-white/10 px-3 py-1.5 bg-white/5 hover:bg-white/10 transition"
-                  >
-                    atharvalad05@gmail.com
-                  </Link>
+                        <a href="mailto:atharvalad05@gmail.com" className="rounded-lg border border-white/10 px-3 py-1.5 bg-white/5 hover:bg-white/10 transition">
+                          atharvalad05@gmail.com
+                        </a>
                 </div>
               </div>
             </div>

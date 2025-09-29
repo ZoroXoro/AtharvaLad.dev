@@ -29,7 +29,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="LinkedInhttps://www.linkedin.com/in/atharva-lad-a06bb8299/"
+                href="https://www.linkedin.com/in/atharva-lad-a06bb8299/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors duration-300"
