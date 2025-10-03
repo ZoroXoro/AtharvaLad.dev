@@ -27,12 +27,12 @@ const projects = [
 
 const works2D = [
   {
-    title: "Main Menu",
+    title: "Art Bible of Tiny Titan",
     description:
-      "A 2D concept sheet exploring mood, silhouettes, and prop language for a cozy village level.",
-    tags: ["Photoshop", "Concept Art"],
-    href: "#",
-    image: "/MainMenu.png", // public/works/2d/env-sheet.jpg
+      "Tiny Titan is a game based on Nostalgic exploration and Survival in a mysterious attic. As these are cutscenes in the Game which has gives a imagination power to the player while playing the game.",
+    tags: ["Photoshop", "Concept Art", "DigitalStoryBoard"],
+    href: "https://www.artstation.com/artwork/WXQX9Q",
+    image: "/Logo.png", // public/works/2d/env-sheet.jpg
   },
   {
     title: "Dargon card",
@@ -46,19 +46,19 @@ const works2D = [
 
 const works3D = [
   {
-    title: "Stylized Props Pack",
+    title: "The Buccaneer’s Beat: Pirate Jam Spot",
     description:
-      "Low-poly props with hand-painted textures, authored for real-time mobile scenes.",
-    tags: ["Blender", "PBR", "Game-Ready"],
-    href: "#",
-    image: "/Close_Front.jpg",
+      "Stylized Low-poly props with hand-painted textures, authored for real-time mobile scenes.",
+    tags: ["Maya", "Stylized", "GameReadyAssets"],
+    href: "https://www.artstation.com/artwork/nJNokr",
+    image: "/atharva.jpg",
   },
   {
-    title: "Man Front",
+    title: "Hyper-Realistic 3D Character",
     description:
-      "Low-poly props with hand-painted textures, authored for real-time mobile scenes.",
-    tags: ["Blender", "PBR", "Game-Ready"],
-    href: "#",
+      "A Hyper-Realistic 3D Character crafted as my first dive into realism for games.",
+    tags: ["Zbrush", "3DModeling", "Hyper-Realistic"],
+    href: "https://www.artstation.com/artwork/6LyNmr",
     image: "/Front.jpg",
   },
   {

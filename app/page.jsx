@@ -17,7 +17,7 @@ export default function Home() {
       <section className="relative h-[80vh] w-full">
         {/* Background image (local file at /public/hero.png) */}
         <Image
-          src="/hero.png"
+          src="/Cover_Page.png"
           alt="Background"
           fill
           priority
@@ -58,8 +58,8 @@ export default function Home() {
 
       {/* Skills (reduced top padding) */}
       <section className="pt-8 pb-16 border-y border-white/10">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mt-2">
+        <div className="max-w-5x1 mx-auto px-6">
+          <div className="mt-1">
             <SkillsSection />
           </div>
         </div>
